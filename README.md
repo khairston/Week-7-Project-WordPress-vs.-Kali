@@ -12,7 +12,7 @@ Time spent: **8** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: <img src='xss1.gif' title='Authencated Stored Cross-Site Scripting' width='' alt='' />
-  - [ ] Steps to recreate: Change WP version to 4.2.2 or lower. Then create a post and type " <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> " into the text box. Preview to check results.
+  - [ ] Steps to recreate: Change WP version to 4.2.2 or lower. Then create a post and type what was in the gif into the text box. Preview to check results.
   - [ ] Affected source code: No source code affected; linked is the blog describing the vulnerability.
     - [Link 1](https://klikki.fi/adv/wordpress3.html)
 1. (Required) XSS
@@ -21,7 +21,7 @@ Time spent: **8** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.8.2
   - [ ] GIF Walkthrough:  <img src='xss2.gif' title='Stored Cross-Site Scripting' width='' alt='' />
-  - [ ] Steps to recreate: Change WP version to 4.8.1 or lower. Then create a post and type " <img src=1 onerror=alert(1)> " Preview to check the results,
+  - [ ] Steps to recreate: Change WP version to 4.8.1 or lower. Then create a post and type was in the gif into the textbox. Preview to check the results,
   - [ ] Affected source code: No source code affected; linked is the blog describing the vulnerability.
     - [Link 1](https://blog.sucuri.net/2017/09/stored-cross-site-scripting-vulnerability-in-wordpress-4-8-1.html)
 1. (Required)  XSS
@@ -30,7 +30,7 @@ Time spent: **8** hours spent in total
     - Tested in version: 4.2.2
     - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough:  <img src='xss3.gif' title='Authencated Stored Cross-Site Scripting via Image Filename' width='' alt='' />
-  - [ ] Steps to recreate: Change WP version to 4.6 or lower. Then create a post and type " xsstest<img src=a onerror=alert(document.cookie)>.jpg " into the text box. Post and view the post. You will see that the image file is the same name as the post name. 
+  - [ ] Steps to recreate: Change WP version to 4.6 or lower. Then create a post and type  was in the gif into the text box. Post and view the post. You will see that the image file is the same name as the post name. 
   - [ ] Affected source code: No source code affected; linked is the blog describing the vulnerability.
     - [Link 1](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
 1. (Optional) User Enumeration
